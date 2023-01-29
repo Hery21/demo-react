@@ -1,0 +1,45 @@
+
+## Session 1: React Intro
+- Reflect: Interact with DOM, add div with:
+    - document.body.innerHTML
+    - document.createElement
+    - div.textContent or div.innerHTML
+    - document.body.append(div)
+    - Now, how hard it is to create a table with DOM?
+- Library vs Framework
+  - [What is difference between Library and Framework](https://www.freecodecamp.org/news/is-react-a-library-or-a-framework/)
+  - [Difference Between Library and Framework](http://www.differencebetween.net/technology/difference-between-library-and-framework/)
+- What is React?
+    - [What is React](https://www.taniarascia.com/getting-started-with-react/#what-is-react)
+    - https://reactjs.org/
+    - [How React Virtual DOM Works](https://maggieappleton.com/react-vdom)
+- Using RAW React (add to existing website)
+    - Create base HTML with div#root
+    - [Adding React Script to Existing Website](https://reactjs.org/docs/add-react-to-a-website.html#step-2-add-the-script-tags)
+    - React.createElement
+    - ReactDOM.render
+- Using JSX
+  - [What is JSX](https://reactjs.org/docs/introducing-jsx.html)
+  - Babel
+    - [What is Babel](https://babeljs.io/) 
+    - [Try Babel](https://babeljs.io/setup#installation)
+  - [JSX Interpolation](https://reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx)
+- Using Create React App
+  - [Setup](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+  - [Create React App website](https://create-react-app.dev/)
+  - Folder Structure
+- Components in React
+  - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+  - [Class Component](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
+  - Functional Component
+  - Try convert Class component and Functional Component in [Babel](https://babeljs.io/repl)
+  - [Class vs Functional Component](https://medium.com/wesionary-team/react-functional-components-vs-class-components-86a2d2821a22)
+  - [Reference: Atomic Design](https://andela.com/insights/structuring-your-react-application-atomic-design-principles/)
+- Create Todo List
+  - Restructure Folder with /Components and /Pages
+  - Create bulk component TodoList.js in /Pages and add h1, input, and a few list
+  - Break UI to create separate list into new List.js in /Components
+  - Create ListWrapper.js in /Components to wrap List
+- Styling in React
+  - [Inline Style with CSSStyleDeclaration](https://reactjs.org/docs/dom-elements.html#style)
+  - [Regular CSS with className](https://www.w3schools.com/react/react_css_styling.asp)

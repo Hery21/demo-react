@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<p>Haloo</p>
+<div id="root">
+</div>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<h1 style="color: red">Title Pure</h1>
+<script type="text/babel">
+    // masukin code react
+    const rootElement = document.getElementById('root')
+    const title = <h1 style={
+        {
+            color: 'red'
+        }
+    }>Hello world!</h1>
+    const paragraph = <p>Halo semuanya selamat datang di web React!</p>
+    const name = 'Tama'
+    const hello = <span>Halo {name}</span>
+    // const div = React.createElement(
+    //     'div',
+    //     {},
+    //     [
+    //         title,
+    //         paragraph,
+    //         hello
+    //     ]
+    // )
+    const div = <div>
+        {title}
+        {paragraph}
+        {hello}
+    </div>
+    // const x = React.createElement('h1', {},)
+    const root = ReactDOM.createRoot(rootElement)
+    root.render(div)
+
+</script>
+</body>
+</html>

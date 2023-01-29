@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper-todo{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid hotpink;
+    padding: 2rem;
+}

@@ -1,0 +1,36 @@
+## Session 2: React Component and State
+
+- [Component React State and Set State](https://reactjs.org/docs/state-and-lifecycle.html)
+- [Component Props](https://reactjs.org/docs/components-and-props.html)
+- [Props vs State](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
+- Continue Todo List:
+  - Add state in TodoList.js
+    - value - string, for input
+    - todoList - array, for list
+  - Pass todoList to ListWrapper.js as props, and use .map
+    - Try both { return keyword } and parenthesis () => ()
+  - Try setState
+    - Add number in state
+    - Add function add that will increase number state
+- [Component with List and Keys](https://reactjs.org/docs/lists-and-keys.html)
+- Continue Todo List: Add key in id in ListWrapper.js/List.js 
+  - Using id from our data
+  - Using index in .map()
+    - Last resort, only do this if items have no stable IDs!
+    - Not recommended if the order of items may change
+- Component with Expressions [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+- Continue Todo List:
+  - Add state isLogin in TodoList.js
+  - Add conditional rendering, if !isLogin then change list to paragraph "You need to login first!" 
+- React Event and Forms
+  - [Controlled Components](https://reactjs.org/docs/forms.html#controlled-components)
+  - [React Event Handling](https://reactjs.org/docs/handling-events.html)
+  - React Parent and Childer Communication, [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+  - [DOM Event Differences with HTML](https://reactjs.org/docs/dom-elements.html#differences-in-attributes)
+- Continue Todo List:
+  - Edit input so it will change the state value, try to put <p> with input value to check
+  - Add event handler onClick on button to add value to array list
+  - Optional: Add event handler to delete list
+- React Component LifeCycle, Data Flow
+  - [Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
+  - [Lifecycle Method Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

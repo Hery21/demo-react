@@ -1,0 +1,30 @@
+form {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+input[type=text]{
+    flex: 2;
+    width: 80%;
+    height: 2rem;
+}
+
+
+input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    /*text-decoration: none;*/
+    /*margin: 4px 2px;*/
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
